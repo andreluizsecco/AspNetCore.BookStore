@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+  </PropertyGroup>
+
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="7.0.0" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="7.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.entityFrameworkCore.SqlServer" Version="2.2.6" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.2.3" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <ProjectReference Include="..\AspNetCore.Bookstore.Domain\AspNetCore.Bookstore.Domain.csproj" />
+    <ProjectReference Include="..\AspNetCore.Bookstore.Data\AspNetCore.Bookstore.Data.csproj" />
+    <ProjectReference Include="..\AspNetCore.Bookstore.Application\AspNetCore.Bookstore.Application.csproj" />
+    <ProjectReference Include="..\AspNetCore.Bookstore.IoC\AspNetCore.Bookstore.IoC.csproj" />
+  </ItemGroup>
+
+</Project>
