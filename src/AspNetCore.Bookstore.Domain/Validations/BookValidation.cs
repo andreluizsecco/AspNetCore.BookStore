@@ -15,14 +15,14 @@ namespace AspNetCore.Bookstore.Domain.Validations
         {
             RuleFor(p => p.Title)
                 .NotEmpty().WithMessage("The Title cannot be empty")
-                .MaximumLength(255).WithMessage("The Title must be a maximum of 150 characters");
+                .MaximumLength(150).WithMessage("The Title must be a maximum of 150 characters");
         }
 
         public void ValidateAuthor()
         {
             RuleFor(p => p.Author)
                 .NotEmpty().WithMessage("The Author cannot be empty")
-                .MaximumLength(255).WithMessage("The Author must be a maximum of 150 characters");
+                .MaximumLength(150).WithMessage("The Author must be a maximum of 150 characters");
         }
 
         public void ValidateCategory()
