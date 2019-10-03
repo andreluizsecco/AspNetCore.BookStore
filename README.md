@@ -12,4 +12,4 @@ ASP.NET Core application using Command Pattern and Repository Pattern.
 
 ## Author
 
-The Cognitive-LUIS-Programmatic was developed by [André Secco](http://andresecco.com.br) under the [MIT license](LICENSE).
+The AspNetCore.BookStore was developed by [André Secco](http://andresecco.com.br) under the [MIT license](LICENSE).
